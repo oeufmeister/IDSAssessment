@@ -12,7 +12,7 @@ Be sure that you have the following software installed in your local device for 
 2. Run your docker environment.
 3. Build the docker image using the dockerfile.
 
-- Run ```docker build -t <imageName> .``
+- Run ```docker build -t <imageName> .```
 Docker build is used for building docker images.
 The flag '-t' is used for naming the image, you can replace <imageName> with an image name of your choice, for me, it was "helloworld".
 The dot [.] at the end is used for specifying the directory the dockerfile is in, in this case, it is in the current working directory, hence the dot.
